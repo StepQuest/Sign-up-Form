@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {
+    font-family: "Logo";
+    src: url(fonts/CursiveSerif-Bold.ttf);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: "Roboto";
+}
+
+button {
+    width: 220px;
+    background-color: #d66d22;
+    border: none;
+    font-size: 18px;
+    font-weight: Bold;
+    height: 52px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 2px 5px -3px rgba(0,0,0,0.75);
+}
+
+a {
+    color: aliceblue;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Logo";
+    letter-spacing: -2px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.image {
+    position: relative;
+    display: flow-root;
+    min-width: 700px;
+    height: 100%;
+    background: url(images/background.jpg);
+    background-size: 120%;
+    background-position: 55% top;
+    background-repeat: no-repeat;
+}
+
+.photo-c {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color:aliceblue;
+}
+
+#logo {
+    height: 130px;
+    width: auto;
+}
+
+
+.form {
+    background-color: #F9FAFB;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    padding-left: 50px;
+}
+
+form {
+    margin-left: -50px;
+    height: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 24px -19px #000000;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.log-in {
+    text-decoration: none;
+    color: #d66d22;
+    font-weight: 600;
+}
+
+.form:last-child {
+    font-size: 18px;
+}
