@@ -37,6 +37,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #c96620;
+}
+
 a {
     color: aliceblue;
 }
