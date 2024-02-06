@@ -21,14 +21,14 @@
 body {
     height: 100vh;
     width: 100%;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
 }
 
 button {
     width: 220px;
     background-color: var(--site-palette-color);
     border: none;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: Bold;
     height: 52px;
     border-radius: 10px;
@@ -52,7 +52,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    font-size: 50px;
+    font-size: 3.1rem;
     text-align: center;
     color: aliceblue;
     font-family: "Logo";
@@ -81,7 +81,7 @@ a {
 }
 
 #logo {
-    height: 130px;
+    height: 8.1rem;
     width: auto;
 }
 
@@ -108,7 +108,7 @@ form {
 }
 
 .description {
-    font-size: 24px;
+    font-size: 1.4rem;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 
@@ -121,13 +121,13 @@ form {
 }
 
 .form:last-child {
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 /* Form */
 
 .form-title {
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -145,7 +145,7 @@ form {
 label {
     display: block;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: 1px;
     font-weight: 500;
     color: rgb(43, 40, 40);
@@ -171,6 +171,6 @@ input:focus {
 #wrong-password-match {
         visibility: hidden;
         color: var(--incorrect-color);
-        font-size: 13px;
+        font-size: 0.75rem;
         margin-top: -22px;
 }
