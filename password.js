@@ -12,8 +12,8 @@ let wrongAlert = document.querySelector("#wrong-password-match");
 function showReaction() {
     if (password != passwordConfirmation) {
         wrongAlert.style.visibility = 'visible';
-        firstInput.style.borderColor = 'rgb(184, 26, 26)';
-        secondInput.style.borderColor = 'rgb(184, 26, 26)';
+        firstInput.style.borderColor = 'var(--incorrect-color)';
+        secondInput.style.borderColor = 'var(--incorrect-color)';
     } else {
         wrongAlert.style.visibility = 'hidden';
         firstInput.style.borderColor = 'rgb(226, 222, 222)';

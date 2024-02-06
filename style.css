@@ -6,7 +6,11 @@
     src: url(fonts/CursiveSerif-Bold.ttf);
 }
 
-
+:root {
+    --incorrect-color: rgb(184, 26, 26);
+    --site-palette-color: #d66d22;
+    --focused-input-color: rgb(11, 110, 209);
+}
 
 * {
     padding: 0;
@@ -22,7 +26,7 @@ body {
 
 button {
     width: 220px;
-    background-color: #d66d22;
+    background-color: var(--site-palette-color);
     border: none;
     font-size: 18px;
     font-weight: Bold;
@@ -112,7 +116,7 @@ form {
 
 .log-in {
     text-decoration: none;
-    color: #d66d22;
+    color: var(--site-palette-color);
     font-weight: 600;
 }
 
@@ -160,13 +164,13 @@ input {
 }
 
 input:focus {
-    border: 1px solid rgb(11, 110, 209);
+    border: 1px solid var(--focused-input-color);
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
 }
 
 #wrong-password-match {
         visibility: hidden;
-        color: rgb(184, 26, 26);
+        color: var(--incorrect-color);
         font-size: 13px;
         margin-top: -22px;
 }
